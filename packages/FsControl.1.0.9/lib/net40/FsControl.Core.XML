@@ -1,0 +1,3219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FsControl.Core</name></assembly>
+<members>
+<member name="T:FsControl.AssemblyInfo">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Error">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.List">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Prelude">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Seq">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Alternative">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Applicative">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Arrow">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.ArrowApply">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.ArrowChoice">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.ArrowPlus">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.ArrowZero">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Category">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Collection">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Comonad">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Converter">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Floating">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Foldable">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Fractional">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Functor">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Integral">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Monad">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.MonadAsync">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.MonadCont">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.MonadError">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.MonadPlus">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.MonadReader">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.MonadState">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.MonadTrans">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.MonadWriter">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Monoid">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Num">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Numerics">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Real">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.RealFrac">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.TypeMethods.Traversable">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.Cont">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.ContT">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.Dual">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.Endo">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.ErrorT">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.Id">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.Kleisli">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.ListT">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.OptionT">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.Ratio">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.Reader">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.ReaderT">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.SeqT">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.State">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.StateT">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.Writer">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Core.Types.WriterT">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FsControl.Operators.catch``3(``0,Microsoft.FSharp.Core.FSharpFunc{``2,``1})">
+ <summary>catch :: MonadError e m => m a -> (e -> m b) -> m b</summary>
+</member>
+<member name="M:FsControl.Operators.throw``2(``0)">
+ <summary>throw :: MonadError e m => e -> m a</summary>
+</member>
+<member name="M:FsControl.Operators.pass``2(``0)">
+ <summary>pass   :: MonadWriter w m => m (a, w -> w) -> m a</summary>
+</member>
+<member name="M:FsControl.Operators.listen``2(``0)">
+ <summary>listen :: MonadWriter w m => m a -> m (a,w)</summary>
+</member>
+<member name="M:FsControl.Operators.tell``2(``0)">
+ <summary>tell   :: MonadWriter w m => w   -> m ()</summary>
+</member>
+<member name="M:FsControl.Operators.local``2(``0,``1)">
+ <summary>local  :: MonadReader r m => (r -> r) -> m a -> m a</summary>
+</member>
+<member name="M:FsControl.Operators.ask``1">
+ <summary>ask    :: MonadReader r m => m r</summary>
+</member>
+<member name="M:FsControl.Operators.put``2(``0)">
+ <summary>put    :: MonadState  s m => s -> m ()</summary>
+</member>
+<member name="M:FsControl.Operators.get``1">
+ <summary>get    :: MonadState  s m => m s</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FsControl.Operators">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:InlineHelper.Overloads">
+
+</member>
+<member name="T:InlineHelper">
+
+</member>
+</members>
+</doc>

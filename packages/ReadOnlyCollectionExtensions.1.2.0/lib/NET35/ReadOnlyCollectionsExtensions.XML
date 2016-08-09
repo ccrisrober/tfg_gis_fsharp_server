@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ReadOnlyCollectionsExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:ReadOnlyCollectionsExtensions.ExtensionMethods">
+            <summary>
+            Extension methods around read-only collection interfaces
+            </summary>
+        </member>
+        <member name="M:ReadOnlyCollectionsExtensions.ExtensionMethods.AsReadOnlyCollection``1(System.Collections.Generic.ICollection{``0})">
+            <summary>
+            Views an <see cref="T:System.Collections.Generic.ICollection`1"/> as a read-only collection
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadOnlyCollectionsExtensions.ExtensionMethods.AsReadOnlyList``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            View an <see cref="T:System.Collections.Generic.IList`1"/> as a read-only list
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadOnlyCollectionsExtensions.ExtensionMethods.ToReadOnlyList``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Creates a new read-only list from an <see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadOnlyCollectionsExtensions.ExtensionMethods.ToReadOnlyDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2},System.Collections.Generic.IEqualityComparer{``1})">
+            <summary>
+            Creates a new read-only dictionary from an <see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="source"></param>
+            <param name="keySelector"></param>
+            <param name="valueSelector"></param>
+            <param name="comparer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadOnlyCollectionsExtensions.ExtensionMethods.ToReadOnlyDictionary``3(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1},System.Func{``0,``2})">
+            <summary>
+            Creates a new read-only dictionary from an <see cref="T:System.Collections.Generic.IEnumerable`1"/>
+            </summary>
+            <typeparam name="TSource"></typeparam>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="source"></param>
+            <param name="keySelector"></param>
+            <param name="valueSelector"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadOnlyCollectionsExtensions.ExtensionMethods.ToReadOnlyDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})">
+            <summary>
+            Creates a new read-only dictionary from a list of <see cref="T:System.Collections.Generic.KeyValuePair`2"/>
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="dict"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadOnlyCollectionsExtensions.ExtensionMethods.ToReadOnlyDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Collections.Generic.IEqualityComparer{``0})">
+            <summary>
+            Creates a new read-only dictionary from a list of <see cref="T:System.Collections.Generic.KeyValuePair`2"/>
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="dict"></param>
+            <param name="comparer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ReadOnlyCollectionsExtensions.ExtensionMethods.AsReadOnlyDictionary``2(System.Collections.Generic.IDictionary{``0,``1})">
+            <summary>
+            Views a <see cref="T:System.Collections.Generic.IDictionary`2"/> as a read-only dictionary
+            </summary>
+            <typeparam name="TKey"></typeparam>
+            <typeparam name="TValue"></typeparam>
+            <param name="dict"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>Fleece.FSharpData</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:Fleece.Fleece.jpair``1(System.String,``0)">
+<summary>
+ Creates a new JSON key,value pair for a JSON object
+</summary>
+</member>
+<member name="M:Fleece.Fleece.jobj(System.Collections.Generic.IEnumerable{System.Tuple{System.String,FSharp.Data.JsonValue}})">
+<summary>
+ Creates a new JSON object for serialization
+</summary>
+</member>
+<member name="M:Fleece.Fleece.toJSON``1(``0)">
+<summary>
+ Maps a value to JSON
+</summary>
+</member>
+<member name="M:Fleece.Fleece.jgetopt``1(System.Collections.Generic.IReadOnlyDictionary{System.String,FSharp.Data.JsonValue},System.String)">
+<summary>
+ Tries to get a value from a JSON object.
+ Returns None if key is not present in the object.
+</summary>
+</member>
+<member name="M:Fleece.Fleece.jget``1(System.Collections.Generic.IReadOnlyDictionary{System.String,FSharp.Data.JsonValue},System.String)">
+<summary>
+ Gets a value from a JSON object
+</summary>
+</member>
+<member name="M:Fleece.Fleece.parseJSON``1(System.String)">
+<summary>
+ Parses JSON and maps to a type
+</summary>
+</member>
+<member name="M:Fleece.Fleece.fromJSON``1(FSharp.Data.JsonValue)">
+<summary>
+ Maps JSON to a type
+</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:Fleece.Fleece.Operators.op_DotAtQmark``1(System.Collections.Generic.IReadOnlyDictionary{System.String,FSharp.Data.JsonValue},System.String)">
+<summary>
+ Tries to get a value from a JSON object.
+ Returns None if key is not present in the object.
+</summary>
+</member>
+<member name="M:Fleece.Fleece.Operators.op_DotAt``1(System.Collections.Generic.IReadOnlyDictionary{System.String,FSharp.Data.JsonValue},System.String)">
+<summary>
+ Gets a value from a JSON object
+</summary>
+</member>
+<member name="M:Fleece.Fleece.Operators.op_DotEquals``1(System.String,``0)">
+<summary>
+ Creates a new JSON key,value pair for a JSON object
+</summary>
+</member>
+<member name="T:Fleece.Fleece.Operators">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:Fleece.Fleece.Helpers">
+
+</member>
+<member name="T:Fleece.Fleece">
+
+</member>
+</members>
+</doc>

@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>FSharpPlus</name></assembly>
+<members>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.AssemblyInfo">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.Builders">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.Extensions.ValueOrException">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.Extensions.Error">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.Extensions.Seq">
+
+</member>
+<member name="T:FSharpPlus.Extensions">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.NonEmptyList">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="M:FSharpPlus.Operators.catch``3(``0,Microsoft.FSharp.Core.FSharpFunc{``2,``1})">
+ <summary>catch :: MonadError e m => m a -> (e -> m b) -> m b</summary>
+</member>
+<member name="M:FSharpPlus.Operators.throw``2(``0)">
+ <summary>throw :: MonadError e m => e -> m a</summary>
+</member>
+<member name="M:FSharpPlus.Operators.pass``2(``0)">
+ <summary>pass   :: MonadWriter w m => m (a, w -> w) -> m a</summary>
+</member>
+<member name="M:FSharpPlus.Operators.listen``2(``0)">
+ <summary>listen :: MonadWriter w m => m a -> m (a,w)</summary>
+</member>
+<member name="M:FSharpPlus.Operators.tell``2(``0)">
+ <summary>tell   :: MonadWriter w m => w   -> m ()</summary>
+</member>
+<member name="M:FSharpPlus.Operators.local``2(``0,``1)">
+ <summary>local  :: MonadReader r m => (r -> r) -> m a -> m a</summary>
+</member>
+<member name="M:FSharpPlus.Operators.ask``1">
+ <summary>ask    :: MonadReader r m => m r</summary>
+</member>
+<member name="M:FSharpPlus.Operators.put``2(``0)">
+ <summary>put    :: MonadState  s m => s -> m ()</summary>
+</member>
+<member name="M:FSharpPlus.Operators.get``1">
+ <summary>get    :: MonadState  s m => m s</summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.Operators.GenericMath.NumericLiteralG">
+
+</member>
+<member name="T:FSharpPlus.Operators.GenericMath">
+ <summary>
+ Generic numbers, functions and operators.
+ By opening this module some common operators become restricted, like (+) to 'a->'a->'a 
+ </summary>
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.Operators.ApplicativeMath">
+ <summary>Math Operators ready to use over Applicative Functors.</summary>
+</member>
+<member name="T:FSharpPlus.Operators">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.ParallelArray">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.ParallelArrayOperators">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:FSharpPlus.ZipList">
+
+</member>
+</members>
+</doc>
